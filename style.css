@@ -1,0 +1,109 @@
+@font-face {
+    font-family: nexaHeavy;
+    src: url(fonts/Nexa-Heavy.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+}
+.cap_section{
+    background-image: url(images/header_side_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navbar-toggler-icon {
+    background-image:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2858, 78, 213, 1' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    transition: all 0.3s;
+}
+.navbar-toggler-icon:hover{
+    background-image:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 78, 213, 1' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler{
+    padding: 0px;
+    color: #ffffff;
+   
+}
+.navbar-toggler:hover{
+   color: #d15ea3;
+}
+
+.hr_line{
+    content: "";
+    height: 25px;
+    width: 145px;
+    background-color: #8a47f6;
+    border-radius: 50px;
+    position: absolute;
+    right: 35%;
+    top: 60%;
+}
+.cap_h1{
+    font-size: 80px;
+    font-family: nexaHeavy;
+    font-weight: 900;
+    line-height: 90px;
+    color: #111111;
+    font-weight: 900;
+    
+}
+
+.skill_h1{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    font-family: nexaHeavy;
+}
+
+.price_section{
+    background-color: #fbf5f1;
+    overflow-x: hidden;
+}
+.img_section{
+    background-color: #f9efe9;
+}
+
+h1,h2,h3,h5{
+    font-family: nexaHeavy;
+}
+
+.clients_section{
+    background-color: #8a47f613;
+}
+.img_icon img{
+    width: 40px;
+    margin-left: 30px;
+
+}
+.chat_dive{
+    width: fit-content;
+}
+
+/* responsive css */
+
+@media only screen and (max-width: 575px) {
+    .cap_h1 {
+        font-size: 42px;
+        line-height: 47px;
+    }
+    .hr_line{
+        display: none;
+    }
+    .img_gallery{
+        display: none;
+    }
+    .skill_h1{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+}
